@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+  }
+.bgContainer {
+    background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/oasisBgImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+footer{
+    background-color: #0c0c0c;
+}
+.menuIcon{
+    height: 70px;
+    margin-left: 15.5px;
+    margin-top: 15.5px;
+}
+.menuIcon2{
+    height: 70px;
+}

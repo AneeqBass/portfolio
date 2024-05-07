@@ -1,5 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/commando?styles=7971');
 *{
-    font-family: Commando;
+    font-family: 'Commando', sans-serif;
     -webkit-text-fill-color: white; 
     -webkit-text-stroke: 1px #060018;
 }

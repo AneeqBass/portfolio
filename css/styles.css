@@ -146,10 +146,6 @@ footer{
   padding-left: 250px;
   padding-right: 250px;
 }
-.sidebar li{
-  list-style: none;
-  padding-bottom: 20px;
-}
 #pageSelected{
   background-color: rgb(246, 0, 180, 0.66) ;
 }
@@ -159,12 +155,15 @@ footer{
 li:hover{
   background-color: rgb(246, 0, 180, 0.90) ;
 }
-.sidebar a{
+.sidebar li{
   padding-bottom: 20px;
   padding-left: 20px;
+  list-style: none;
+}
+.sidebar a{
+  padding-bottom: 20px;
 }
 #aboutMePic{
-  justify-content: baseline;
   -webkit-filter: drop-shadow(2px 2px 0 #e21861)
                   drop-shadow(-2px -2px 0 #e21861);
   filter: drop-shadow(2px 2px 0 #e21861) 
@@ -175,7 +174,6 @@ li:hover{
   -webkit-filter:aboutGlow ease-in-out infinite alternate; 
 }
 #testiPic{
-  justify-content: baseline;
   -webkit-filter: drop-shadow(2px 2px 0 #e21861)
                   drop-shadow(-2px -2px 0 #e21861);
   filter: drop-shadow(2px 2px 0 #e21861) 
@@ -268,4 +266,7 @@ width: 90%;
 }
 #messageBox{
   height: 100%;
+}
+input[type="text"]{
+height: 100%;
 }

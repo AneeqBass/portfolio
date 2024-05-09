@@ -74,6 +74,21 @@ body, html {
   padding-top: 5rem;
   height: 100%;
 }
+.bgContainerTest {
+  background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/buildingsBgImg.jpeg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.bgContainerCont {
+  background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/sunsetBgImg.jpeg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+  height: 100%;
+}
 .bgContainerAbBlur {
   background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/loungeBgImg.png");
   background-position: center;
@@ -152,6 +167,18 @@ li:hover{
   justify-content: baseline;
   height: 100%;
   max-height: 730px; 
+  -webkit-filter: drop-shadow(2px 2px 0 #e21861)
+                  drop-shadow(-2px -2px 0 #e21861);
+  filter: drop-shadow(2px 2px 0 #e21861) 
+          drop-shadow(-2px -2px 0 #e21861);
+  -webkit-animation: aboutGlow 1s ease-in-out infinite alternate;
+  -moz-animation: aboutGlow 1s ease-in-out infinite alternate;
+  animation: aboutGlow 1s ease-in-out infinite alternate;   
+  -webkit-filter:aboutGlow ease-in-out infinite alternate; 
+}
+#testiPic{
+  justify-content: baseline;
+  max-height: 730px;
   -webkit-filter: drop-shadow(2px 2px 0 #e21861)
                   drop-shadow(-2px -2px 0 #e21861);
   filter: drop-shadow(2px 2px 0 #e21861) 

@@ -163,8 +163,54 @@ li:hover{
   padding: 5%;
 }
 .cardWidth{
-width: 92%;
+width: 90%;
 }
 #cardHeight{
   max-height: 100%;
+}
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+@media (min-width: 576px) {
+  .card-group.card-group-scroll {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+  }
+}
+.card-group.card-group-scroll > .card {
+  flex-basis: 35%;
+}
+#imgSize{
+  margin: auto;
+  height: 15rem;
+  -webkit-filter: drop-shadow(2px 2px 0 #e21861)
+                  drop-shadow(-2px -2px 0 #e21861);
+  filter: drop-shadow(2px 2px 0 #e21861) 
+          drop-shadow(-2px -2px 0 #e21861);
+  -webkit-animation: aboutGlow 1s ease-in-out infinite alternate;
+  -moz-animation: aboutGlow 1s ease-in-out infinite alternate;
+  animation: aboutGlow 1s ease-in-out infinite alternate;   
+  -webkit-filter:aboutGlow ease-in-out infinite alternate; 
+}
+::-webkit-scrollbar-track
+{
+	background-color: transparent;
+	border-radius: 7.5px;
+}
+
+::-webkit-scrollbar
+{
+	width: 7.5px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 7.5px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, #fd7bbc),
+									   color-stop(0.72, #fc3699),
+									   color-stop(0.86, #df0056));
 }

@@ -15,36 +15,48 @@
             <img class="menuIcon2" src="https://aneeqbass.github.io/hostedImages_portfolio/images/menuIcon.png" alt="menuIcon" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
         <ul class="list-group list-group-flush mt-3 fs-3 ms-2">
             <div class="sidebar">
-                <a class="link-offset-2 link-underline link-underline-opacity-0"href="./index.html"><li id="pageSelected">HOME</li></a>
-                
-                <a class="link-offset-2 link-underline link-underline-opacity-0"href="./aboutPage.html"><li>ABOUT</li></a>
+                <a class="link-offset-2 link-underline link-underline-opacity-0" href="./index.html"><li>HOME</li></a>
+            
+                <a class="link-offset-2 link-underline link-underline-opacity-0" href="./aboutPage.html"><li>ABOUT</li></a>
                 
                 <a class="link-offset-2 link-underline link-underline-opacity-0"href="./projectsPage.html"><li>PROJECTS</li></a>
                 
                 <a class="link-offset-2 link-underline link-underline-opacity-0"href="./testimonialsPage.html"><li>TESTIMONIALS</li></a>
-                
-                <a class="link-offset-2 link-underline link-underline-opacity-0"href="./contactPage.html"><li>ASK ME SOMETHING</li></a>
+                 
+                <a class="link-offset-2 link-underline link-underline-opacity-0"href="./contactPage.html"><li id="pageSelected">ASK ME SOMETHING</li></a>
             </div>
         </ul>
         </div>
     </div>
 
-    <div class="bgContainerInd lazy">
+    <div class="bgContainerCont lazy">
         <img class="menuIcon fixed-top" src="https://aneeqbass.github.io/hostedImages_portfolio/images/menuIcon.png" alt="menuIcon" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
 
-        <div class="portrait">
-          <img id="glow" class="img-fluid mx-auto rounded-circle border border-3 border-dark d-block w-25" src="https://aneeqbass.github.io/hostedImages_portfolio/images/portrait.jpg" alt="portrait">
-          </div>
-          <div class="paddingCont">
-              <h1 id="title" class="mt-2 text-center">Welcome to Aneeq Bassadien's Digital Portfolio</h1>
-              <h1 id="title" class="mt-2 text-center">Work Hard Play Hard</h1>
-            </div>
+        <div class="container m-auto text-center">
+            <h1 id="title">Have a question? Ask me!</h1>
+
+            
+        <form
+            action="https://formspree.io/f/xvoedoya"
+            method="POST"
+            >
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label type="text" for="exampleInputQuestion1" class="form-label">Question</label>
+                <input type="text" class="form-control" id="exampleInputQuestion1">
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
         </div>
 
-    
-
+        </div>
     <footer>
-        <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi incidunt accusamus sed ex voluptas deserunt? Excepturi, quis, nemo dolore earum consectetur fugit quidem expedita numquam veritatis ad voluptatem, dignissimos minima!</p>
+        <p class="text-light text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi incidunt accusamus sed ex voluptas deserunt? Excepturi, quis, nemo dolore earum consectetur fugit quidem expedita numquam veritatis ad voluptatem, dignissimos minima!</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

@@ -54,7 +54,7 @@ body, html {
 }
 .bgContainerInd {
   background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/oasisBgImg.png");
-  background-position: fixed;
+  background-position: center;
   background-repeat:unset;
   background-size: cover;  
   background-attachment: scroll;
@@ -68,7 +68,7 @@ body, html {
 }
 .bgContainerProj {
   background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/desktopBgImg.jpg");
-  background-position: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 5rem;
@@ -76,14 +76,14 @@ body, html {
 }
 .bgContainerTest {
   background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/buildingsBgImg.jpeg");
-  background-position: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
 .bgContainerCont {
-  background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/sunsetBgImg.jpeg");
-  background-position: fixed;
+  background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/sunsetBgImg.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 5rem;
@@ -165,8 +165,6 @@ li:hover{
 }
 #aboutMePic{
   justify-content: baseline;
-  height: 100%;
-  max-height: 730px; 
   -webkit-filter: drop-shadow(2px 2px 0 #e21861)
                   drop-shadow(-2px -2px 0 #e21861);
   filter: drop-shadow(2px 2px 0 #e21861) 
@@ -178,7 +176,6 @@ li:hover{
 }
 #testiPic{
   justify-content: baseline;
-  max-height: 730px;
   -webkit-filter: drop-shadow(2px 2px 0 #e21861)
                   drop-shadow(-2px -2px 0 #e21861);
   filter: drop-shadow(2px 2px 0 #e21861) 
@@ -268,4 +265,7 @@ width: 90%;
 									   color-stop(0.44, #fd7bbc),
 									   color-stop(0.72, #fc3699),
 									   color-stop(0.86, #df0056));
+}
+#messageBox{
+  height: 100%;
 }

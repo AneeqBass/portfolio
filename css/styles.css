@@ -49,44 +49,46 @@
   }
 }
 body, html {
-  height: 100%;
   background-color: #0c0c0c;
 }
 .bgContainerInd {
   background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/oasisBgImg.png");
   background-position: center;
-  background-repeat:unset;
+  background-repeat: no-repeat;
   background-size: cover;  
-  background-attachment: scroll;
+  background-attachment: fixed;
   height: 100%;
   }
 .bgContainerAb {
   background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/loungeBgImg.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
+  
+  background-attachment: fixed;
 }
 .bgContainerProj {
   background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/desktopBgImg.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 5rem;
+  background-size: cover;  
+  background-attachment: fixed;
   height: 100%;
 }
 .bgContainerTest {
   background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/buildingsBgImg.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
+  background-attachment: fixed;
   height: 100%;
 }
 .bgContainerCont {
   background-image: url("https://aneeqbass.github.io/hostedImages_portfolio/images/sunsetBgImg.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 5rem;
+  background-size: cover;  
+  background-attachment: fixed;
   height: 100%;
 }
 .bgContainerAbBlur {
@@ -105,6 +107,8 @@ body, html {
 }
 footer{
   background-color: #0c0c0c;
+  border-color: transparent;
+  position: absolute;
 }
 .menuIcon{
   height: 70px;
@@ -140,7 +144,7 @@ footer{
   background-color: rgb(246, 0, 180, 0.90) ;
 }
 .portrait{
-  padding-top: 80px;
+  padding-top: 7%;
 }
 .paddingCont{
   padding-left: 250px;
@@ -174,6 +178,7 @@ li:hover{
   -webkit-filter:aboutGlow ease-in-out infinite alternate; 
 }
 #testiPic{
+  
   -webkit-filter: drop-shadow(2px 2px 0 #e21861)
                   drop-shadow(-2px -2px 0 #e21861);
   filter: drop-shadow(2px 2px 0 #e21861) 
@@ -214,6 +219,9 @@ li:hover{
 }
 .cardWidth{
 width: 90%;
+}
+#cardBlockSize{
+max-width: 20%;
 }
 #cardHeight{
   max-height: 100%;
@@ -269,4 +277,7 @@ width: 90%;
 }
 input[type="text"]{
 height: 100%;
+}
+#accordHeading{
+  background-color: #f1e9e9;
 }
